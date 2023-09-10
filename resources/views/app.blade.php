@@ -12,17 +12,6 @@
   <!-- theme meta -->
   <meta name="theme-name" content="parsa" />
 
-  <!-- ** Plugins Needed for the Project ** -->
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-  <!-- slick slider -->
-  <link rel="stylesheet" href="plugins/slick/slick.css">
-  <!-- themefy-icon -->
-  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
-
-  <!-- Main Stylesheet -->
-  <link href="css/style.css" rel="stylesheet">
-
   <!--Favicon-->
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -32,7 +21,7 @@
 
 <body>
   <!-- preloader -->
-  <div class="preloader">
+  <!-- <div class="preloader">
     <div class="loader">
       <span class="dot"></span>
       <div class="dots">
@@ -41,7 +30,7 @@
         <span></span>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- /preloader -->
   <div id="root"></div>
 

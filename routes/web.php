@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::view('/{any}', 'app');
+Route::view('/blog/{any}', 'app');
 Route::get('/', function () {
-    return view('app');
+    return view('admin.dashboard');
 });
